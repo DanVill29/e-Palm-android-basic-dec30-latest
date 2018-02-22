@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/logo"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="73dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Exercises Page"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#7fa87f" />
+
+
+    <Button
+        android:id="@+id/btnBackDash_exercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="BACK TO DASHBOARD" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="www.e-palm.net"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

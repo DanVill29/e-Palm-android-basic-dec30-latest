@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo">
+
+        <!--  Header  Starts-->
+
+        <!--  Header Ends -->
+
+
+        <!-- Footer Start -->
+        <!-- Footer Ends -->
+
+        <!-- Login Form -->
+
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0b84aa"
+            android:text="Welcome to Dashboard Page"
+            tools:text="Welcome to Dashboard Page"
+            android:id="@+id/dashboard_email"
+            android:textSize="24sp"
+            android:layout_marginTop="21dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="53dp"
+            android:id="@+id/email_dashboard"
+            android:textColor="#7fa87f"
+            android:textSize="30sp"
+            android:layout_below="@+id/dashboard_email"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button android:id="@+id/btnLogout_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:background="@android:color/darker_gray"
+            tools:text="Logout"
+
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/button_so"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button android:layout_height="wrap_content" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button_so" android:text="Check the e-Palm Online here!" android:linksClickable="true" android:onClick="goToSo"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></Button>
+
+        <!-- Login Form Ends -->
+    </RelativeLayout>
+</ScrollView>
